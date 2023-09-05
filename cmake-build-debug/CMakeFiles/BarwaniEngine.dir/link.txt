@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2022.3.1\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\BarwaniEngine.dir/objects.a
+C:\MinGW\bin\ar.exe qc CMakeFiles\BarwaniEngine.dir/objects.a @CMakeFiles\BarwaniEngine.dir\objects1.rsp
+C:\MinGW\bin\c++.exe -g -Wl,--whole-archive CMakeFiles\BarwaniEngine.dir/objects.a -Wl,--no-whole-archive -o BarwaniEngine.exe -Wl,--out-implib,libBarwaniEngine.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\BarwaniEngine.dir\linkLibs.rsp
